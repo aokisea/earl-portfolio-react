@@ -7,6 +7,12 @@ export const gridStyling = {
   width: '100vh'
 }
 
+export const vidStyling = {
+  position: 'absolute',
+  bottom: 100,
+  left: 70,
+}
+
 export const OpacityOverlay = styled(Box)({
   position: 'absolute',
   top: 0,
