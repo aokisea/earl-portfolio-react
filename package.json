@@ -1,6 +1,7 @@
 {
   "name": "earl-portfolio-react",
   "private": true,
+  "homepage": "https://aokisea.github.io/earl-portfolio-react/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
