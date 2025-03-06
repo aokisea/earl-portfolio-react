@@ -1,0 +1,20 @@
+[
+  {
+    "companyName": "Fujitsu Philippines, Inc.",
+    "position": "Application Systems Engineer/Consultant",
+    "skills": "Agile (Methodology), Vue, React, Javascript, Typescript, AWS (EC2, S3, IAM, Cognito, Cloudformation, Amplify, Lambda, API Gateway), Springboot",
+    "years": "2023-2025"
+  },
+  {
+    "companyName": "GoNFTY",
+    "position": "Lead Game Developer",
+    "skills": "Unity Engine, C#, Blender 3D, Unreal Engine 5, GIMP",
+    "years": "2023"
+  },
+  {
+    "companyName": "Adamant Intelligent Solutions, Inc.",
+    "position": "Game Developer",
+    "skills": "Unity Engine, C#, Blender 3D, Javascript",
+    "years": "2022-2023"
+  }
+  ]

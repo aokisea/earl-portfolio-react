@@ -1,0 +1,13 @@
+.Container {
+    padding: 20px;
+  }
+  
+  .Item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .Title {
+    margin-top: 0;
+  }
