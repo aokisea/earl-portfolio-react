@@ -40,14 +40,14 @@ function ShowProjects() {
       {projects.map((project, index) => (
         <Element name={project.id} key={index}>
           <styles.BackgroundStyle img={project.img}>
-            <Grid item xs={12} sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width: '100%' }}>
+            <Grid item xs={12} sx={ styles.gridStyling }>
               <div>
                 <styles.genre>{project.genre}</styles.genre>
                 <styles.lineStyle />
                 <styles.headline>{project.headline}</styles.headline>
                 <styles.subtitle>{project.subtitle}</styles.subtitle>
               </div>
-              <Grid item xs={12} sx={{ display: 'flex', flexDirection: 'column', minHeight: '70vh', width: '100%', position: 'relative' }}>
+              <styles.vidHolder item xs={12}>
                 <iframe
                   width="560"
                   height="315"
@@ -61,7 +61,7 @@ function ShowProjects() {
                     left: 70,
                   }}
                 ></iframe>
-              </Grid>
+              </styles.vidHolder>
             </Grid>
           </styles.BackgroundStyle>
         </Element>

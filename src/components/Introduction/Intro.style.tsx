@@ -52,10 +52,19 @@ export const boxStyle = styled(Box)({
     color: 'text.primary',
     marginBottom: '1rem',
     fontWeight: '700',
-    fontSize: '6rem',
     lineHeight: '7rem',
     
-    '@media (max-width: 1129.95px)': {
+    '@media (max-width: 379.95px)': {
+      fontSize: '4rem',
+      textAlign: 'Center',
+    },
+    
+    '@media (min-width: 380px, max-width: 449.95px)': {
+      fontSize: '4.5rem',
+      textAlign: 'Center',
+    },
+    
+    '@media (min-width: 450px, max-width: 1129.95px)': {
       fontSize: '5.5rem',
       textAlign: 'Center',
     },

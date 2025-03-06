@@ -9,7 +9,7 @@ const Intro: React.FC = () => {
       <styles.OpacityOverlay />
       <styles.gridContainer container spacing={0}>
         <Grid item xs={12}>
-          <Typography variant="h1" sx={styles.headlineStyle}>
+          <Typography sx={styles.headlineStyle}>
             Website<br/>Portfolio
           </Typography>
         </Grid>

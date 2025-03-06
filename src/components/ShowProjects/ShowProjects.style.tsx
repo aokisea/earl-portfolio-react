@@ -1,4 +1,11 @@
-import { Box, styled } from '@mui/material';
+import { Box, Grid, styled } from '@mui/material';
+
+export const gridStyling = {
+  display: 'flex', 
+  flexDirection: 'column', 
+  minHeight: '100vh', 
+  width: '100vh'
+}
 
 export const OpacityOverlay = styled(Box)({
   position: 'absolute',
@@ -22,6 +29,14 @@ export const BackgroundStyle = styled('div')<BackgroundStyleProps>(({ img }) => 
   width: '100%',
   position: 'relative',
 }));
+
+export const vidHolder = styled(Grid)({
+  display: 'flex', 
+  flexDirection: 'column', 
+  minHeight: '70vh', 
+  width: '100%', 
+  position: 'relative',
+});
 
 export const lineStyle = styled(Box)({
   width: '40%',
