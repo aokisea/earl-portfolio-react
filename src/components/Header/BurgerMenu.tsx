@@ -13,7 +13,8 @@ interface BurgerMenuProps {
 
 /* eslint-disable */
 
-const BurgerMenu: React.FC<BurgerMenuProps> = ({ scrollToIntro, scrollToAbout, scrollToExperience, scrollToShowProjects, scrollToCertificates, scrollToContacts }) => {
+// const BurgerMenu: React.FC<BurgerMenuProps> = ({ scrollToIntro, scrollToAbout, scrollToExperience, scrollToShowProjects, scrollToCertificates, scrollToContacts }) => {
+const BurgerMenu: React.FC<BurgerMenuProps> = ({ scrollToIntro, scrollToAbout, scrollToExperience, scrollToShowProjects, scrollToContacts }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {

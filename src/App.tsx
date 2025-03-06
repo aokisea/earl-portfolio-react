@@ -12,11 +12,9 @@ import { ExperienceList } from './interfaces/types';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './styles/theme';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import React from 'react';
+// import React from 'react';
 // import Certificates from './components/Certificates';
 import Contacts from './components/Contacts/contacts';
-
-/* eslint-disable */
 
 function App() {
   const [experience] = useState<ExperienceList[]>(experienceData);
@@ -28,10 +26,10 @@ function App() {
   const certificatesRef = useRef<HTMLDivElement>(null);
   const contactsRef = useRef<HTMLDivElement>(null);
 
-  React.useEffect(() => {
-    window.scrollTo(0, 0); 
-    setTimeout(() => setIsVisible(true), 50);
-  }, []);
+  // React.useEffect(() => {
+  //   window.scrollTo(0, 0); 
+  //   setTimeout(() => setIsVisible(true), 50);
+  // }, []);
 
   return (
     <ThemeProvider theme={theme}>
@@ -111,7 +109,7 @@ function App() {
 // }
 
 export default App;
-function setIsVisible(arg0: boolean) {
-  throw new Error('Function not implemented.');
-}
+// function setIsVisible(arg0: boolean) {
+//   throw new Error('Function not implemented.');
+// }
 

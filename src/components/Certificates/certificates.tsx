@@ -1,13 +1,8 @@
-import * as React from 'react';
 import { List, ListItem, ListItemText, Typography } from '@mui/material';
 import certificateData from './certificates.json'; // Import the JSON file with PDF paths
 import Pdf from './CertificateOfCompletion_Java Lambdas and Streams.pdf';
 
-/* eslint-disable */
-
-export interface IAppProps {}
-
-export default function Certificates(props: IAppProps) {
+export default function Certificates() {
   return (
     <div className="certificates-container">
       <List>

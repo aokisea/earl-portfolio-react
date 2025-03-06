@@ -1,4 +1,3 @@
-import React from 'react';
 import * as styles from './ShowProjects.style';
 import { Grid } from '@mui/material';
 import { Element, Link } from 'react-scroll';
