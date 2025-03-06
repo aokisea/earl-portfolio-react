@@ -33,7 +33,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Router basename="/earl-portfolio-react">
+      <Router>
         <Routes>
           <Route path="/" element={
             <div className="App">
