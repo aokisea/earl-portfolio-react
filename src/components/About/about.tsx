@@ -60,8 +60,11 @@ const About: React.FC = () => {
           <styles.boxContents>
             <styles.header>About Me</styles.header>
             <styles.body>
-            Lorem ipsum <styles.highlight className='shining-text'>Earl Alexis M. Ignacio</styles.highlight> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This text exceeds 100 words, so here's a shorter version:
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Hello! I am <styles.highlight className='shining-text'>Earl Alexis M. Ignacio</styles.highlight>, a Passionate Game Developer and Software Engineer with expertise in building
+            immersive gaming experiences and developing apps and websites. Proficient
+            in various programming languages and game engines, with a constant drive
+            to learn new things. Actively contributes to team success by providing
+            guidance and support when needed.
             </styles.body>
             {/* <Button variant="contained">Hello World</Button> */}
           </styles.boxContents>
