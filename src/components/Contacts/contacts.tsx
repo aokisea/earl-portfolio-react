@@ -97,7 +97,7 @@ const Contacts: React.FC<IAppProps> = () => {
                 variant="contained"
                 size="large"
                 color="secondary"
-                href="/src/assets/EA RESUME 2025 UPDATED.pdf"
+                href="/src/assets/Resume - Earl Alexis Ignacio (2025).pdf"
                 download
                 fullWidth
                 onClick={handleResumeDownload}
